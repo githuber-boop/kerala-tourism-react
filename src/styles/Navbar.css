@@ -1,0 +1,50 @@
+.nav-link a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-family: 'Khand';
+    transition: borderBottom 0.2s ease;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1.4rem;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.callOut {
+    background: none;
+    font-family: "Khand";
+    text-transform: uppercase;
+    background: none;
+    color: white;
+    border: 2px solid #0AAF4F;
+    padding: 0.3rem 0.95rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.5s ease;
+    /* display: none; */
+}
+
+.callOut:hover {
+    background-color: #0AAF4F;
+}
+
+.backgroundGreen {
+    background-color: #0AAF4F;
+    
+}
+
+.backgroundGreen:hover {
+    background: none;
+}

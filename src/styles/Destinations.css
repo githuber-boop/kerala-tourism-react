@@ -1,0 +1,44 @@
+.destinations {
+    margin-top: 2rem;
+}
+
+.destinationGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-items: center; */
+}
+
+.destinations .title {
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    border-bottom: 3px solid #0AAF4F;
+    width: fit-content;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.destinationCard p {
+    font-family: 'Khand';
+    text-transform: uppercase;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.destinationCard p::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px; /* Adjust the thickness of the underline */
+    background-color: #0AAF4F; 
+}
+
+
+
+.destinationGrid article img{
+    width: 90%;
+    height: 300px;
+}

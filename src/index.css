@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300;400;500;600;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: block;
+}
+
+.grid {
+    display: grid;
+}
+
+footer {
+  text-align: center;
+  padding: 1.25rem;
+}

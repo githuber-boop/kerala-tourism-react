@@ -1,0 +1,53 @@
+.hero {
+    background-image: url('../assets/images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: url('./images/hero-bg.png') no-repeat; */
+    height: 80vh; 
+    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+}
+
+#hero-text h1{
+    font-size: 3rem;
+    color: white;
+    line-height: 1.2;
+    /* color: #fff */
+    margin-bottom: 1rem;
+}
+
+#hero-text {
+    padding-top: 8rem;
+    font-family: 'Poppins';
+    text-align: center;
+}
+
+.call-outs a{
+    font-family: "Khand";
+    text-transform: uppercase;
+    background: none;
+    color: white;
+    border: 2px solid #0AAF4F;
+    padding: 0.3rem 0.95rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+    /* display: none; */
+}
+
+
+
+
+.call-outs a:last-child {
+    background-color: #0AAF4F;
+}
+
+.call-outs a:last-child:hover {
+    background:none ;
+}
+
+.bottomHover:hover{
+    border-bottom: 2px solid white;
+    
+}

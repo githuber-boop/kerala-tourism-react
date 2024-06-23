@@ -1,0 +1,46 @@
+.districts {
+    background-image: url('../assets/images/districts-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* background: url('./images/hero-bg.png') no-repeat; */
+    /* height: 100vh;  */
+    clip-path: polygon(0 0, 100% 14%, 100% 100%, 0% 100%);
+    padding: 100px;
+    margin-top: 30px;
+}
+
+.districts .title {
+    font-family: 'Poppins';
+    font-size: 2.5rem;
+    border-bottom: 3px solid #0AAF4F;
+    width: fit-content;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.districtsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.districtCard {
+    color: white;
+    font-family: 'Poppins';
+    border: 2px solid white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+
+.districtCard img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.districtCard button {
+    padding: .25rem .8rem;
+}
